@@ -31,6 +31,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='opcoes',
             name='quastao',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='enquetes.Questao'),
+            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='pesquisas.Questao'),
         ),
     ]
